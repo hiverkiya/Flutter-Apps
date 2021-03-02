@@ -36,9 +36,14 @@ class CalcAppState extends State<CalcApp> {
   }
 
   void evaluate(String text) {
+    Parser p = Parser();
+    Expression exp = p.parse(_expression);
+    ContextModel cm = ContextModel();
+    double eval = exp.evaluate(EvaluationType.REAL, cm);
+
     setState(() {
       _history = _expression;
-      _expression = 'solved';
+      _expression = eval.toString();
     });
   }
 
@@ -119,7 +124,7 @@ class CalcAppState extends State<CalcApp> {
                   callback: numClick,
                 ),
                 CalcButton(
-                  text: 'x',
+                  text: '*',
                   textSize: 30,
                   fillColor: 0xFFFFFFFF,
                   textColor: 0xFF65BDAC,
