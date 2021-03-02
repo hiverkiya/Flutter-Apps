@@ -15,21 +15,25 @@ class CalcButton extends StatelessWidget {
       : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: 65,
-      height: 65,
-      child: FlatButton(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
-        child: Text(
-          text,
-          style: GoogleFonts.rubik(
-              textStyle: TextStyle(
-            fontSize: textSize,
-          )),
+    return Container(
+      margin: EdgeInsets.all(10),
+      child: SizedBox(
+        width: 65,
+        height: 65,
+        child: FlatButton(
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
+          child: Text(
+            text,
+            style: GoogleFonts.rubik(
+                textStyle: TextStyle(
+              fontSize: textSize,
+            )),
+          ),
+          onPressed: () {},
+          color: fillColor != null ? Color(fillColor) : null,
+          textColor: Color(textColor),
         ),
-        onPressed: () {},
-        color: fillColor != null ? Color(fillColor) : null,
-        textColor: Color(textColor),
       ),
     );
   }
