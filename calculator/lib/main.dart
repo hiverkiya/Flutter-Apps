@@ -52,7 +52,7 @@ class CalcAppState extends State<CalcApp> {
     return MaterialApp(
       title: 'Calculator',
       home: Scaffold(
-        backgroundColor: Color(0xFF283637),
+        backgroundColor: Color(0xFF000000),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: <Widget>[
@@ -62,7 +62,7 @@ class CalcAppState extends State<CalcApp> {
                 _history,
                 style: GoogleFonts.rubik(
                   textStyle: TextStyle(fontSize: 24),
-                  color: Color(0xFF545F61),
+                  color: Color(0xFFFFFFFF),
                 ),
               ),
               alignment: Alignment(1, 1),
@@ -86,12 +86,12 @@ class CalcAppState extends State<CalcApp> {
               children: <Widget>[
                 CalcButton(
                   text: 'AC',
-                  fillColor: 0xFF6C807F,
+                  fillColor: 0xFF5BDA8B,
                   callback: allClear,
                 ),
                 CalcButton(
                   text: 'C',
-                  fillColor: 0xFF6C807F,
+                  fillColor: 0xFF5BDA8B,
                   callback: clear,
                 ),
                 CalcButton(
