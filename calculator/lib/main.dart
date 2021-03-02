@@ -42,20 +42,16 @@ class CalcApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 CalcButton(
-                  text: 'AC',
-                  fillColor: 0xFF6C807F,
+                  text: '7',
                 ),
                 CalcButton(
-                  text: 'C',
-                  fillColor: 0xFF6C807F,
+                  text: '8',
                 ),
                 CalcButton(
-                  text: '%',
-                  fillColor: 0xFFFFFFFF,
-                  textColor: 0xFF65BDAC,
+                  text: '9',
                 ),
                 CalcButton(
-                  text: '/',
+                  text: '*',
                   fillColor: 0xFFFFFFFF,
                   textColor: 0xFF65BDAC,
                 ),
@@ -65,20 +61,16 @@ class CalcApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 CalcButton(
-                  text: 'AC',
-                  fillColor: 0xFF6C807F,
+                  text: '4',
                 ),
                 CalcButton(
-                  text: 'C',
-                  fillColor: 0xFF6C807F,
+                  text: '5',
                 ),
                 CalcButton(
-                  text: '%',
-                  fillColor: 0xFFFFFFFF,
-                  textColor: 0xFF65BDAC,
+                  text: '6',
                 ),
                 CalcButton(
-                  text: '/',
+                  text: '-',
                   fillColor: 0xFFFFFFFF,
                   textColor: 0xFF65BDAC,
                 ),
@@ -88,20 +80,16 @@ class CalcApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 CalcButton(
-                  text: 'AC',
-                  fillColor: 0xFF6C807F,
+                  text: '1',
                 ),
                 CalcButton(
-                  text: 'C',
-                  fillColor: 0xFF6C807F,
+                  text: '2',
                 ),
                 CalcButton(
-                  text: '%',
-                  fillColor: 0xFFFFFFFF,
-                  textColor: 0xFF65BDAC,
+                  text: '3',
                 ),
                 CalcButton(
-                  text: '/',
+                  text: '+',
                   fillColor: 0xFFFFFFFF,
                   textColor: 0xFF65BDAC,
                 ),
@@ -111,20 +99,16 @@ class CalcApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 CalcButton(
-                  text: 'AC',
-                  fillColor: 0xFF6C807F,
+                  text: '.',
                 ),
                 CalcButton(
-                  text: 'C',
-                  fillColor: 0xFF6C807F,
+                  text: '0',
                 ),
                 CalcButton(
-                  text: '%',
-                  fillColor: 0xFFFFFFFF,
-                  textColor: 0xFF65BDAC,
+                  text: '00',
                 ),
                 CalcButton(
-                  text: '/',
+                  text: '=',
                   fillColor: 0xFFFFFFFF,
                   textColor: 0xFF65BDAC,
                 ),
